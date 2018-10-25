@@ -4,7 +4,8 @@
   "description": "A Real Time Chat Application built using Node.js, Express, Mongoose, Socket.io, Passport, & Redis.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "nodemon server.js"
   },
   "repository": {
     "url": "git+https://github.com/OmarElGabry/chat.io.git",
@@ -25,6 +26,7 @@
     "express": "^4.14.0",
     "express-session": "^1.14.0",
     "mongoose": "^5.0.17",
+    "nodemon": "^1.18.4",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
     "redis": "^2.6.2",
